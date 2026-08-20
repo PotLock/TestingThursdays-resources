@@ -1,0 +1,14 @@
+appId: com.example.app
+---
+- launchApp
+- tapOn: "Sign in"
+- tapOn:
+    id: "email-input"
+- inputText: "test-user"
+- tapOn:
+    id: "password-input"
+- inputText: "example-test-password"
+- tapOn: "Continue"
+- assertVisible: "Home"
+- takeScreenshot: "signed-in-home"
+# Replace subsequent steps with a safe test-environment core journey.

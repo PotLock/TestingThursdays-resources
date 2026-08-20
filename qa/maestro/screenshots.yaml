@@ -1,0 +1,8 @@
+appId: com.example.app
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Welcome"
+- takeScreenshot: "01-welcome"
+- tapOn: "Get Started"
+- takeScreenshot: "02-onboarding"
